@@ -1,14 +1,5 @@
-[
-  {
-    "id": "1",
-    "name": "Cherry",
-    "image": "https://www.bigbasket.com/media/uploads/p/s/40217762_1-fresho-cherry.jpg",
-    "price": "$12",
-    "colors": ["red", "green", "blue"],
-    "condition": "Fresh",
-    "description": "Two Cherries",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
+export let json=[
+
   {
     "id": "2",
     "name": "Strawberry",
@@ -109,106 +100,9 @@
     "description": "orange",
     "vendors": ["Fresh fruits Market", "Fruit Ninja"]
   },
-  {
-    "id": "12",
-    "name": "Papaya",
-    "image": "https://cdn.shopify.com/s/files/1/2628/9270/products/Thandai_Fruits-32_360x.jpg?v=1648027998",
-    "price": "$17",
-    "colors": ["green"],
-    "condition": "Fresh",
-    "description": "papaya",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
-  {
-    "id": "13",
-    "name": "Mosaambi",
-    "image": "https://cdn.shopify.com/s/files/1/2628/9270/products/Thandai_Fruits-34_360x.jpg?v=1648027987",
-    "price": "$7",
-    "colors": ["green"],
-    "condition": "Fresh",
-    "description": "mosambi",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
-  {
-    "id": "14",
-    "name": "Sindhoori Mango",
-    "image": "https://cdn.shopify.com/s/files/1/2628/9270/products/Artboard7_1-80_360x.jpg?v=1650358928",
-    "price": "$10",
-    "colors": ["red", "green", "yellow"],
-    "condition": "Fresh",
-    "description": "sindhoori mango",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
-  {
-    "id": "15",
-    "name": "Avocados",
-    "image": "https://cdn.shopify.com/s/files/1/2628/9270/products/Artboard2-80_8b755290-ec59-4db0-85e0-a6ce6071685e_360x.jpg?v=1650542546",
-    "price": "$6",
-    "colors": ["green"],
-    "condition": "Fresh",
-    "description": "avacados",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
-  {
-    "id": "16",
-    "name": "White Passion Fruit",
-    "image": "https://cdn.shopify.com/s/files/1/2628/9270/products/Artboard1-80_42e86d46-7345-452a-a604-032f65f7e178_360x.jpg?v=1650540928",
-    "price": "$8",
-    "colors": ["orange"],
-    "condition": "Fresh",
-    "description": "white passion",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
-  {
-    "id": "17",
-    "name": "Mallika Mango",
-    "image": "https://cdn.shopify.com/s/files/1/2628/9270/products/1_94fca46f-7f26-464c-90df-34283602094a_900x.jpg?v=1653309598",
-    "price": "$12",
-    "colors": ["red", "green", "yellow"],
-    "condition": "Fresh",
-    "description": "mallika mango",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
-  {
-    "id": "18",
-    "name": "JackFruit",
-    "image": "https://cdn.shopify.com/s/files/1/2628/9270/products/jackfruitimage-80_400x.jpg?v=1649671552",
-    "price": "$20",
-    "colors": ["green"],
-    "condition": "Fresh",
-    "description": "Two Cherries",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
-  {
-    "id": "19",
-    "name": "Ice Apple",
-    "image": "https://cdn.shopify.com/s/files/1/2628/9270/products/Artboard6copy4_2-100_360x.jpg?v=1649250756",
-    "price": "$10",
-    "colors": ["white"],
-    "condition": "Fresh",
-    "description": "Two Cherries",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
-  {
-    "id": "20",
-    "name": "Guava",
-    "image": "https://cdn.shopify.com/s/files/1/2628/9270/products/Guavaimages_400x.jpg?v=1653390984",
-    "price": "$7",
-    "colors": ["green"],
-    "condition": "Fresh",
-    "description": "Two Cherries",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
-  {
-    "id": "21",
-    "name": "Mangosteen",
-    "image": "https://cdn.shopify.com/s/files/1/2628/9270/products/Fruits_Mangosteencopy_ae2b93b2-7ccf-4ad5-9fb7-c184bc6bf8ad_1_360x.jpg?v=1652070845",
-    "price": "$11",
-    "colors": ["pink"],
-    "condition": "Fresh",
-    "description": "mangosteen",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
+ 
+  
+ 
   {
     "id": "22",
     "name": "Raspuri Mango",
@@ -269,16 +163,7 @@
     "description": "blueberries",
     "vendors": ["Fresh fruits Market", "Fruit Ninja"]
   },
-  {
-    "id": "28",
-    "name": "Custard Apple",
-    "image": "https://media.istockphoto.com/photos/sugar-apple-isolated-on-white-picture-id913533868?k=20&m=913533868&s=612x612&w=0&h=O5EFBxkBc01YjsgVnQ0thUAeQMoSEvr6bopeHaP2DOc==",
-    "price": "$7",
-    "colors": ["red", "green", "blue"],
-    "condition": "Fresh",
-    "description": "custard apple",
-    "vendors": ["Fresh fruits Market", "Fruit Ninja"]
-  },
+  
   {
     "id": "29",
     "name": "Sapota",

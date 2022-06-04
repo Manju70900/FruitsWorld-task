@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:beige;
+}
+
+.productcontainer
+{
+height: 90vh;
+width: 90%;
+margin: 10vh auto;
+display: grid;
+
+padding: 10px;
+}
+
+img[alt=product]
+{
+    width: 100%;
+    height: 300px;
+  
+}
+
+.product{
+   margin: 25px;
+   z-index: 1;
+
+}
+
+.hover
+{
+    transform: scale(0);
+}
+
+.product:hover .hover
+{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    transform: scale(1);
+   
+   
+}
+
+
+.hover .btn{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+
+}
+
+
+#btn
+{
+    z-index: 5;
+}
+
+.tablecont
+{
+    
+    z-index: 10;
+  
+
+}
+
+th
+{
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+
+}
+
+td{
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+.home__row {  
+  display: flex; 
+  z-index: 1; 
+  margin-left: 5px;  
+  margin-right: 5px;
+}
+
+
+.add
+{
+    z-index: 5;
+}
+
+.modal
+{
+    position: absolute;
+    
+    
+}
+
+
+.carousel
+{
+    
+}

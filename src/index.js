@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import "./global.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+// import $ from "jquery";
+// import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
+import reducer, { initialState } from "./Apis/Reducer";
+import { StateProvider } from "./Apis/StateContext";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <StateProvider initialState={initialState} reducer={reducer}>
     <App />
-  </React.StrictMode>
+  </StateProvider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
